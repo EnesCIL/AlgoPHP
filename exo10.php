@@ -7,26 +7,29 @@ affiche à un utilisateur un rendu de monnaie en nombre de billets de 10 € et 
 </p>
 
 <?php
-$montantAPayer = 152;
-$montantVerse = 200;
-$reste = $montantVerse - $montantAPayer; // 48
+$montantpayer= 152 ;
+$montantVersé= 200;
+$reste = ($montantVersé-$montantpayer);
+$billet10 = 0;
+$billet5 = 0;
+$piece2 = 0;
+$piece1 = 0;
 
-// Division entière sans intdiv()
-$billets10 = (int)($reste / 10);  // 48 ÷ 10 = 4
-$reste = $reste - ($billets10 * 10); // reste 8
-
-$billets5 = (int)($reste / 5);    // 8 ÷ 5 = 1
-$reste = $reste - ($billets5 * 5);   // reste 3
-
-$pieces2 = (int)($reste / 2);     // 3 ÷ 2 = 1
-$reste = $reste - ($pieces2 * 2);    // reste 1
-
-$pieces1 = $reste; // il reste 1
-
-echo "Montant à payer : $montantAPayer €<br>";
-echo "Montant versé : $montantVerse €<br>";
-echo "Reste à payer : " . ($montantVerse - $montantAPayer) . " €<br>";
-echo "***************************************************<br>";
-echo "Rendue de monnaie :<br>";
-echo "$billets10 billets de 10 € - $billets5 billet de 5 € - $pieces2 pièce de 2 € - $pieces1 pièce de 1 €<br>";
+$i = 1;
+while($reste >= 10){
+    $reste -=10;   
+    $billet10++;
+}
+if ($reste>= 5){
+    $reste -=5;
+    $billet5++;
+}while($reste >= 2){
+    $reste -=2;   
+    $piece2++;
+}
+ 
+echo "Nombre de billets de 10 : $billet10\n";
+echo "Nombre de billets de 5 : $billet5\n";
+echo "Nombre de piece de 2 : $piece2\n";
+echo "Nombre de piece de 1 : $reste\n";
 ?>

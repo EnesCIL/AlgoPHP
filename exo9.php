@@ -6,16 +6,25 @@ plus de 20 ans, alors celle-ci est imposable (sinon ce n'est pas le cas, « non 
 
 </p>
 <?php
-$age = 32;
-$sexe = "F"; // F ou M
+// $age = 32;
+// $sexe = "F"; // F ou M
 
-if (($sexe == "F" && $age >= 18 && $age <= 35) || ($sexe == "M" && $age > 20)) {
-    $resultat = "imposable";
-} else {
-    $resultat = "non imposable";
+// if (($sexe == "F" && $age >= 18 && $age <= 35) || ($sexe == "M" && $age > 20)) {
+//     $resultat = "imposable";
+// } else {
+//     $resultat = "non imposable";
+// }
+
+
+// switch case , syntaxe
+$age = 35;
+$sexe = "F" ;
+switch($age) {
+    case $sexe == "F" && $age >= 18 && $age <= 35 : echo "$age $sexe imposable<br>"; break;
+    case $sexe == "M" && $age > 20: echo "$age $sexe: imposbale<br>"; break;
+    default: echo "non imposable<br>";
 }
 
-echo "Age : $age<br>";
-echo "Sexe : $sexe<br>";
-echo "La personne est $resultat<br>";
+
+
 ?>
