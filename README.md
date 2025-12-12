@@ -23,8 +23,11 @@ Les exercices abordent la manipulation de chaînes, tableaux, conditions, boucle
 
 **Concepts :**
 ✔ Gestion de chaînes
+
 ✔ Normalisation (minuscules, suppression des espaces)
+
 ✔ Comparaison de chaînes
+
 ✔ Palindrome
 
 ---
@@ -41,7 +44,9 @@ Les exercices abordent la manipulation de chaînes, tableaux, conditions, boucle
 
 Concepts :
 ✔ Typage dynamique
+
 ✔ Conversion francs → euros
+
 ✔ Arrondis à 2 décimales
 
 ---
@@ -56,9 +61,13 @@ Concepts :
 
 **Concepts :**
 ✔ Comparaison de valeurs
+
 ✔ Opérateurs logiques (&&, ||)
+
 ✔ Conditions imbriquées
+
 ✔ Catégorisation selon l’âge
+
 ✔ Test d’imposabilité (homme/femme + âge)
 
 ---
@@ -75,8 +84,11 @@ Concepts :
 
 **Concepts :**
 ✔ Table de multiplication
+
 ✔ Rendu de monnaie
+
 ✔ Parcours de tableau
+
 ✔ Affichage ligne par ligne
 
 ---
@@ -99,8 +111,11 @@ array_sum() → somme des valeurs
 
 **Concepts :**
 ✔ Parcours d’un tableau
+
 ✔ Affichage de marques de voitures
+
 ✔ Calcul de la moyenne générale d’un élève
+
 ✔ Tableau clé → valeur (prénom / langue)
 
 ---
@@ -119,8 +134,13 @@ array_sum() → somme des valeurs
 🎯 Objectifs pédagogiques
 
 ✔ Manipuler les chaînes, nombres et tableaux
+
 ✔ Utiliser les fonctions natives de PHP
+
 ✔ Maîtriser les structures conditionnelles
+
 ✔ Utiliser les boucles pour automatiser les calculs
+
 ✔ Comprendre le fonctionnement des tableaux simples et associatifs
+
 ✔ Développer une logique algorithmique solide
