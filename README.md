@@ -22,6 +22,7 @@ Les exercices abordent la manipulation de chaînes, tableaux, conditions, boucle
 - strrev() → inverser une chaîne
 
 **Concepts :**
+
 ✔ Gestion de chaînes
 
 ✔ Normalisation (minuscules, suppression des espaces)
@@ -43,6 +44,7 @@ Les exercices abordent la manipulation de chaînes, tableaux, conditions, boucle
 - round() → arrondir un nombre
 
 Concepts :
+
 ✔ Typage dynamique
 
 ✔ Conversion francs → euros
@@ -60,6 +62,7 @@ Concepts :
 - switch
 
 **Concepts :**
+
 ✔ Comparaison de valeurs
 
 ✔ Opérateurs logiques (&&, ||)
@@ -83,6 +86,7 @@ Concepts :
 - foreach
 
 **Concepts :**
+
 ✔ Table de multiplication
 
 ✔ Rendu de monnaie
@@ -110,6 +114,7 @@ count() → compter les éléments
 array_sum() → somme des valeurs
 
 **Concepts :**
+
 ✔ Parcours d’un tableau
 
 ✔ Affichage de marques de voitures
@@ -121,16 +126,18 @@ array_sum() → somme des valeurs
 ---
 
 🔹 **6. Fonctions natives PHP utilisées**
-**Fonction	Utilité**
-- strlen()	Compter les caractères
-- str_word_count()	Compter les mots
-- str_replace()	Remplacer un mot
-- strtolower()	Mettre en minuscules
-- strrev()	Inverser une chaîne
-- round()	Arrondir
-- count()	Compter les éléments d’un tableau
-- array_sum()	Somme des valeurs
-- ksort()	Trier par clé
+
+**Fonction	Utilitées :**
+
+- strlen() :	Compter les caractères
+- str_word_count() :	Compter les mots
+- str_replace() :	Remplacer un mot
+- strtolower() :	Mettre en minuscules
+- strrev() :	Inverser une chaîne
+- round() :	Arrondir
+- count() :	Compter les éléments d’un tableau
+- array_sum()	: Somme des valeurs
+- ksort() :	Trier par clé
 🎯 Objectifs pédagogiques
 
 ✔ Manipuler les chaînes, nombres et tableaux
